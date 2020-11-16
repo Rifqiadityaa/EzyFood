@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/swipeHome"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home" />
+
+        <item
+            android:id="@+id/swipeDrinks"
+            android:title="Drinks"
+            android:icon="@drawable/swipe_drinks"/>
+        <item
+            android:id="@+id/swipeFoods"
+            android:title="Foods"
+            android:icon="@drawable/swipe_foods"/>
+        <item
+            android:id="@+id/swipeSnacks"
+            android:title="Snacks"
+            android:icon="@drawable/swipe_snacks"/>
+        <item
+            android:id="@+id/swipeUserOrder"
+            android:title="My Order"
+            android:icon="@drawable/swipe_user_order"/>
+        <item
+            android:id="@+id/swipePayment"
+            android:title="Payment"
+            android:icon="@drawable/swipe_payment"/>
+    </group>
+
+</menu>

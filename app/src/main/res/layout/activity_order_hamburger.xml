@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderFoods.OrderHamburger">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutOrderHamburger1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/toolbar">
+
+        <TextView
+            android:id="@+id/userOrderPageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/baloo"
+            android:text="Order Hamburger"
+            android:textColor="#D5C859"
+            android:textSize="36sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/RelativeLayoutOrderHamburger1">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/hamburger128" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/baloo"
+            android:text="Rp 30.000"
+            android:textColor="@android:color/secondary_text_light"
+            android:textColorHighlight="@android:color/secondary_text_light"
+            android:textColorHint="@android:color/secondary_text_light"
+            android:textColorLink="@android:color/secondary_text_light"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@android:color/secondary_text_light"
+            android:textColorHighlight="@android:color/secondary_text_light"
+            android:textColorHint="@android:color/secondary_text_light"
+            android:textColorLink="@android:color/secondary_text_light" />
+
+        <Button
+            android:id="@+id/orderBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNumber2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#D5C859"
+            android:fontFamily="@font/baloo"
+            android:text="Order" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

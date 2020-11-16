@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="10dp"
+    android:fitsSystemWindows="false"
+    app:cardMaxElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/drinksImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/drinksName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/drinksImageView"
+            android:layout_toRightOf="@id/drinksImageView"
+            android:fontFamily="@font/baloo"
+            android:text="Line 1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/drinksPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drinksName"
+            android:layout_toEndOf="@id/drinksImageView"
+            android:layout_toRightOf="@id/drinksImageView"
+            android:fontFamily="@font/baloo"
+            android:text="Line 2"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

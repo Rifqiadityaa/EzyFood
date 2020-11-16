@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UTS Mobile</string>
+    <string name="binusezyfood">BinusEzyFood</string>
+    <string name="always_serving_the_best">Always serving The Best!</string>
+    <string name="foods">Foods</string>
+    <string name="drinks">Drinks</string>
+    <string name="snacks">Snacks</string>
+    <string name="payment">Payment</string>
+    <string name="imageoflogo">ImageOfLogo</string>
+    <string name="imageoffood">ImageofFood</string>
+    <string name="imageofdrinks">Imageofdrinks</string>
+    <string name="imageofsnacks">imageofsnacks</string>
+    <string name="imageofpayment">imageofpayment</string>
+    <string name="topup">Topup</string>
+    <string name="navSwipeOpen">Open Navigation</string>
+    <string name="navSwipeClose">Close Navigation</string>
+</resources>
